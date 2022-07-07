@@ -25,14 +25,3 @@ form.addEventListener("submit", (e) => {
     errorElement.innerText = messages.join(", ");
   }
 });
-function checkform() {
-  if (
-    document.getElementById("un").value == "jayem30" &&
-    document.getElementById("pw").value == "jayem"
-  ) {
-    alert("Login Successful");
-    window.location = "http://www.google.com/";
-  } else {
-    alert("Access denied. Valid username and password is required.");
-  }
-}
