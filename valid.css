@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+}
+#nameEntered {
+    color: #39FF14;
+}
+input {
+    border: 1px, solid, #ff007f;
+}
