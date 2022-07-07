@@ -1,9 +1,12 @@
 body {
-    background-color: black;
+  background-color: black;
 }
-#nameEntered {
-    color: #39FF14;
+label {
+  color: #39ff14;
 }
 input {
-    border: 1px, solid, #ff007f;
+  border: 1px, solid, #ff007f;
+}
+#error {
+  color: red;
 }
